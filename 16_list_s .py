@@ -12,3 +12,10 @@ else:
     print("no")
 
 print(li[1:4:2])  #jump indexing
+
+
+lst=[i for i in range(4)]
+print(lst)
+
+lsst=[i*i for i in range(4)]
+print(lsst)
